@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #373737;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Przestawieniowy">
+   <children>
+      <Button fx:id="back" layoutX="590.0" layoutY="550.0" mnemonicParsing="false" onAction="#back" prefHeight="25.0" prefWidth="155.0" style="-fx-background-color: #7f3109;" text="Cofnij" textFill="#0a0003">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Source Sans Pro Semibold Italic" size="14.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.51" specularConstant="0.32" specularExponent="40.0" surfaceScale="3.01">
+               <bumpInput>
+                  <Shadow>
+                     <color>
+                        <Color opacity="0.7260869741439819" />
+                     </color>
+                  </Shadow>
+               </bumpInput>
+
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="archiveSave" alignment="CENTER" layoutX="50.0" layoutY="550.0" mnemonicParsing="false" onAction="#archiveSave" prefHeight="41.0" prefWidth="125.0" style="-fx-background-color: #7f3109;" text="Zapisz" textFill="#0a0003">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Source Sans Pro Semibold Italic" size="20.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.51" specularConstant="0.32" specularExponent="40.0" surfaceScale="3.01">
+               <bumpInput>
+                  <Shadow>
+                     <color>
+                        <Color opacity="0.7260869741439819" />
+                     </color>
+                  </Shadow>
+               </bumpInput>
+
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="archiveLoad" alignment="CENTER" layoutX="185.0" layoutY="550.0" mnemonicParsing="false" onAction="#archiveLoad" prefHeight="41.0" prefWidth="125.0" style="-fx-background-color: #7f3109;" text="Wczytaj" textFill="#0a0003">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Source Sans Pro Semibold Italic" size="20.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.51" specularConstant="0.32" specularExponent="40.0" surfaceScale="3.01">
+               <bumpInput>
+                  <Shadow>
+                     <color>
+                        <Color opacity="0.7260869741439819" />
+                     </color>
+                  </Shadow>
+               </bumpInput>
+
+            </Lighting>
+         </effect>
+      </Button>
+
+      <TextArea fx:id="inText" layoutX="50.0" layoutY="80.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="200.0" prefWidth="700.0" promptText="Ty wpisz tekst:" style="-fx-background-color: #555555;" AnchorPane.topAnchor="80.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextArea>
+      <TextArea fx:id="outText1" layoutX="50.0" layoutY="340.0" prefHeight="200.0" prefWidth="700.0" style="-fx-background-color: #555555;">
+         <font>
+            <Font size="20.0" />
+         </font></TextArea>
+      <Button fx:id="cipher" layoutX="140.0" layoutY="290.0" mnemonicParsing="false" onAction="#cipher" prefHeight="41.0" prefWidth="220.0" style="-fx-background-color: #7f3109;" text="Szyfruj" textFill="#0a0003">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Source Sans Pro Semibold Italic" size="20.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.51" specularConstant="0.32" specularExponent="40.0" surfaceScale="3.01">
+               <bumpInput>
+                  <Shadow>
+                     <color>
+                        <Color opacity="0.7260869741439819" />
+                     </color>
+                  </Shadow>
+               </bumpInput>
+
+            </Lighting>
+         </effect>
+      </Button>
+      <TextField fx:id="newOffset" alignment="TOP_LEFT" layoutX="331.0" layoutY="30.0" nodeOrientation="LEFT_TO_RIGHT" onAction="#newOffset" prefHeight="35.0" prefWidth="69.0" style="-fx-background-color: #555555;" text="3">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <Label layoutX="50.0" layoutY="30.0" prefHeight="35.0" prefWidth="262.0" style="-fx-background-color: #7f3109;" text=" Długość przesunięcia w prawo:" textFill="#0a0003">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Lighting diffuseConstant="1.79">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+            </Lighting>
+         </effect>
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="decipher" layoutX="445.0" layoutY="290.0" mnemonicParsing="false" onAction="#decipher" prefHeight="41.0" prefWidth="220.0" style="-fx-background-color: #7f3109;" text="Deszyfruj" textFill="#0a0003">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="Source Sans Pro Semibold Italic" size="20.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.51" specularConstant="0.32" specularExponent="40.0" surfaceScale="3.01">
+               <bumpInput>
+                  <Shadow>
+                     <color>
+                        <Color opacity="0.7260869741439819" />
+                     </color>
+                  </Shadow>
+               </bumpInput>
+
+            </Lighting>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
