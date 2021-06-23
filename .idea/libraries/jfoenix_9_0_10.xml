@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="jfoenix-9.0.10">
+    <CLASSES>
+      <root url="jar://D:/Pliki Java/javaFiles/jfoenix-9.0.10.jar!/" />
+      <root url="file://D:/Pliki Java/javafx-sdk-11.0.2/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://D:/Pliki Java/javafx-sdk-11.0.2/lib" />
+    </SOURCES>
+    <jarDirectory url="file://D:/Pliki Java/javafx-sdk-11.0.2/lib" recursive="false" />
+    <jarDirectory url="file://D:/Pliki Java/javafx-sdk-11.0.2/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
