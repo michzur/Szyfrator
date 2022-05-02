@@ -4,6 +4,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [About Project](#About-Project)
+* [Instalation](#Instalation)
 * [Instructions](#Instructions)
 
 ## General info
@@ -24,6 +25,8 @@ The most difficult part in this project was to manage work for another people - 
 
 Future updates will protect user from in-room peepers with real-time ciphering, aswell as making mode for diary 
 
+## Instalation
+To run this app you need to add sample.App as the Main class in Run/Debug Configurations
 ## Instructions
 1. Choose desired cipher
 
