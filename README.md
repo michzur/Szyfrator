@@ -26,12 +26,19 @@ Future updates will protect user from in-room peepers with real-time ciphering, 
 
 ## Instructions
 1. Choose desired cipher
+
 ![image](https://user-images.githubusercontent.com/74488031/166237421-e68dcd5b-57a1-49fd-bd59-35c1a9a948c0.png)
+
 b) Some Cipher require additional info, like symbols in Podstawieniowy Cipherc or keywords in Polibiusz/Vigener
+
 ![image](https://user-images.githubusercontent.com/74488031/166237490-9c129ed9-cbd9-4405-9ee0-f8c82fbb666b.png)
+
 2. Press "Szyfruj" To cipher a massage/ or "Deszyfruj" to Decipher crypted message
+
 ![image](https://user-images.githubusercontent.com/74488031/166237670-6088d804-ed1f-44e1-9abc-016356301bfd.png)
+
 3. To save or load message press correspond button, and choose proper index
+
 ![image](https://user-images.githubusercontent.com/74488031/166237874-4aed3f0d-9cdb-4333-bc41-3bb7a73877ca.png)
 
 
